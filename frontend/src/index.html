@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MTS BANK</title>
+    <link rel="shortcut icon" type="image/x-icon" href="mts_favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-page" id="loginAccount">
+        <div class="form">
+            <div class="login">
+                <div class="login-header">
+                    <h1 id="h1-index">WELCOME TO MTS BANK</h1>
+                    <p id="p-index">Enter your credentials to login.</p>
+                </div>
+            </div>
+            <form class="login-form">
+
+                <input placeholder="Username" />
+                <input type="password" placeholder="Password" />
+            </form>
+            <button onclick="window.location.href='home.html';">
+                LOG IN
+            </button>
+            <p id="p-index">To create an account, <a href="./" id="create-link">click here.</a></p>
+        </div>
+    </div>
+
+    <div class="create-page form-hidden" id="createAccount">
+        <div class="form">
+            <div class="login">
+                <div class="login-header">
+                    <h1 id="h1-index">WELCOME TO MTS BANK</h1>
+                    <p id="p-index">Create your new account.</p>
+                </div>
+            </div>
+            <form class="create-form">
+                <input type="email" placeholder="Email Address" />
+                <input placeholder="Username" />
+                <input type="password" placeholder="Password" />
+            </form>
+            <button onclick="window.location.href='./';">
+                SIGN UP
+            </button>
+            <p id="p-index">If you already have an account, <a href="./" id="login-link">click here.</a></p>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>

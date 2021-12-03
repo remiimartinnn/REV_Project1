@@ -1,0 +1,237 @@
+/*index.html*/
+.login-page{
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.create-page{
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.login-page .form .login{
+    margin-top: -31px;
+    margin-bottom: 26px;
+}
+.form-hidden{
+    display: none;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: #00A;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+.form input{
+    outline: 0;
+    background: #f2f2f2cc;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button{
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #fff;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:#00A;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+#h1-index{
+    color: #fff;
+}
+body{
+    background-color: #ddd;
+}
+#p-index{
+    color: #ddd;
+}
+#create-link, #login-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+/*menu*/
+.navigation-bar{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00A;
+
+}
+.navigation-bar a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navigation-bar a:hover{
+    background-color: black;
+}
+
+
+/*home.html*/
+#h1-home{
+    text-align: center;
+}
+.account-overview{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 360px;
+    margin-top: -31px;
+    margin-bottom: 26px;
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 170, 0.336), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+#here{
+    text-decoration: none;
+    color: #00A;
+    font-weight: bold;
+}
+
+
+/*transfer.html*/
+
+.transfer-money{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 360px;
+    margin-top: -31px;
+    margin-bottom: 26px;
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 170, 0.336), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+#h1-transfer{
+    text-align: center;
+}
+
+select, input{
+        outline: 0;
+        background: #f2f2f2cc;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+}
+#button{
+    background: #00A;
+    color:#fff;
+    cursor:pointer;
+    
+}
+#button:hover{
+    background-color: black;
+}
+
+
+
+/*accounts.html*/
+
+.h1-accounts{
+    text-align: center;
+}
+
+.checking-acct, .savings-acct{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 360px;
+    margin-top: -31px;
+    margin-bottom: 26px;
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    max-width: 360px;
+    margin: 0 auto 30px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 170, 0.336), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#t1, #t2{
+    margin-left: 31px;
+}
+
+
+/*statements.html*/
+
+.top-10, .this-month, .last-month, .months-3{
+    margin-left: 31px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 360px;
+    margin-top: -31px;
+    margin-bottom: 26px;
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    max-width: 360px;
+    margin: 0 auto 30px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 170, 0.336), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.view-as p{
+    display: inline;
+    color: #00A;
+    padding: 14px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-style: italic;
+}
+
+#h1-statements{
+    text-align: center;
+}
+
+.view-statements{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 360px;
+    margin-top: -31px;
+    margin-bottom: 26px;
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 170, 0.336), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTS BANK USER STATEMENTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navigation-bar">
+        <a href="home.html">HOME</a>
+        <a href="accounts.html">VIEW ACCOUNTS</a>
+        <a href="transfer.html">TRANSFER FUNDS</a>
+        <a href="index.html">LOG OUT</a>
+    </nav>
+
+    <h1 id = "h1-statements">USER'S ACCOUNT STATEMENTS</h1>
+    <hr/><br/>
+    <div class="view-statements">
+    <form>
+        <h2>MAKE A SELECTION:</h2>
+        <select name="statements" size="1">
+            <!--make it so that each selection will show a different div on the same page-->
+            <option>TOP 10 TRANSACTIONS</option>
+            <option>THIS MONTH</option>
+            <option>LAST MONTH</option>
+            <option>PAST 3 MONTHS</option>
+            <option>BY DATE RANGE</option>
+        </select>
+        <br /><br />
+        <input id="button" type="submit" value="VIEW" />
+        <!--need message to pop up in same page after sending-->
+        <br /><br />
+        <h3>SELECT BY DATE RANGE</h3>
+        FROM: <input type="date" min="2021-08-30" max="2021-11-24" step="1" /> TO: <input type="date" min="2021-08-30"
+            max="2021-11-24" step="1" />
+
+        <br /><br />
+        <input id="button" type="submit" value="VIEW" />
+        <!--need message to pop up in same page after sending-->
+    </form>
+    </div>
+
+    <div class="top-10">
+        <h3>TOP 10 TRANSACTIONS</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ACCOUNT</th>
+                    <th>DATE</th>
+                    <th>NAME</th>
+                    <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CHECKING</td>
+                    <td>11.23.2021</td>
+                    <td>XBOX GAME PASS</td>
+                    <td style="color:red;">-$15.00</td>
+
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>11.23.2021</td>
+                    <td>RENT</td>
+                    <td style="color:red;">-$1050.00</td>
+
+                </tr>
+                <tr>
+                    <td>CHECKING</td>
+                    <td>11.20.2021</td>
+                    <td>CHIPOTLE</td>
+                    <td style="color:red;">-$10.00</td>
+                </tr>
+                <tr>
+                    <td>CHECKING</td>
+                    <td>11.20.2021</td>
+                    <td>T-MOBILE</td>
+                    <td style="color:red;">-$75.00</td>
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>11.19.2021</td>
+                    <td>REVATURE</td>
+                    <td>$800.00</td>
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>11.12.2021</td>
+                    <td>PRICELINE</td>
+                    <td style="color:red;">-$500.00</td>
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>11.01.2021</td>
+                    <td>DEPOSIT</td>
+                    <td>$100.00</td>
+
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>10.31.2021</td>
+                    <td>FASHION NOVA</td>
+                    <td style="color:red;">-$200.00</td>
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>10.22.2021</td>
+                    <td>REVATURE</td>
+                    <td>$800.00</td>
+                </tr>
+                <tr>
+                    <td>CHECKING</td>
+                    <td>10.11.2021</td>
+                    <td>CASH APP</td>
+                    <td style="color:red;">-$50.00</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        <div class="view-as">
+            <br/>
+            <p id="html1">View as HTML</p>
+            <p id="pdf1">View as PDF</p>
+            <p id="xlsx1">View as XLSX</p>
+        </div>
+    </div>
+
+    <div class="this-month">
+        <h3>THIS MONTH'S TRANSACTIONS</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ACCOUNT</th>
+                    <th>DATE</th>
+                    <th>NAME</th>
+                    <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CHECKING</td>
+                    <td>11.23.2021</td>
+                    <td>XBOX GAME PASS</td>
+                    <td style="color:red;">-$15.00</td>
+
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>11.23.2021</td>
+                    <td>RENT</td>
+                    <td style="color:red;">-$1050.00</td>
+
+                </tr>
+                <tr>
+                    <td>CHECKING</td>
+                    <td>11.20.2021</td>
+                    <td>CHIPOTLE</td>
+                    <td style="color:red;">-$10.00</td>
+                </tr>
+                <tr>
+                    <td>CHECKING</td>
+                    <td>11.20.2021</td>
+                    <td>T-MOBILE</td>
+                    <td style="color:red;">-$75.00</td>
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>11.19.2021</td>
+                    <td>REVATURE</td>
+                    <td>$800.00</td>
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>11.12.2021</td>
+                    <td>PRICELINE</td>
+                    <td style="color:red;">-$500.00</td>
+                </tr>
+                <tr>
+                    <td>SAVINGS</td>
+                    <td>11.01.2021</td>
+                    <td>DEPOSIT</td>
+                    <td>$100.00</td>
+
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        <div class="view-as">
+            <br/>
+            <p id="html2">View as HTML</p>
+            <p id="pdf2">View as PDF</p>
+            <p id="xlsx2">View as XLSX</p>
+        </div>
+    </div>
+
+    <div class="last-month">
+        <h3>LAST MONTH'S TRANSACTIONS</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ACCOUNT</th>
+                    <th>DATE</th>
+                    <th>NAME</th>
+                    <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>SAVINGS</td>
+                <td>10.31.2021</td>
+                <td>FASHION NOVA</td>
+                <td style="color:red;">-$200.00</td>
+            </tr>
+            <tr>
+                <td>SAVINGS</td>
+                <td>10.22.2021</td>
+                <td>REVATURE</td>
+                <td>$800.00</td>
+            </tr>
+            <tr>
+                <td>CHECKING</td>
+                <td>10.11.2021</td>
+                <td>CASH APP</td>
+                <td style="color:red;">-$50.00</td>
+            </tr>
+            <tfoot></tfoot>
+        </table>
+        <div class="view-as">
+            <br/>
+            <p id="html3">View as HTML</p>
+            <p id="pdf3">View as PDF</p>
+            <p id="xlsx3">View as XLSX</p>
+        </div>
+    </div>
+
+    <div class="months-3">
+        <h3>TRANSACTIONS FROM PAST 3 MONTHS</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ACCOUNT</th>
+                    <th>DATE</th>
+                    <th>NAME</th>
+                    <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>SAVINGS</td>
+                <td>10.31.2021</td>
+                <td>FASHION NOVA</td>
+                <td style="color:red;">-$200.00</td>
+            </tr>
+            <tr>
+                <td>SAVINGS</td>
+                <td>10.22.2021</td>
+                <td>REVATURE</td>
+                <td>$800.00</td>
+            </tr>
+            <tr>
+                <td>CHECKING</td>
+                <td>10.11.2021</td>
+                <td>CASH APP</td>
+                <td style="color:red;">-$50.00</td>
+            </tr>
+            <tr>
+                <td>SAVINGS</td>
+                <td>09.15.2021</td>
+                <td>DEPOSIT</td>
+                <td>$100.00</td>
+
+            </tr>
+            <tr>
+                <td>CHECKING</td>
+                <td>09.01.2021</td>
+                <td>STUDENT LOANS</td>
+                <td style="color:red;">-$150.00</td>
+            </tr>
+            <tr>
+                <td>SAVINGS</td>
+                <td>08.31.2021</td>
+                <td>MONTLY ACCT FEE</td>
+                <td style="color:red;">-$50.00</td>
+            </tr>
+            <tr>
+                <td>CHECKING</td>
+                <td>08.30.2021</td>
+                <td>INITIAL DEPOSIT</td>
+                <td>$3300.00</td>
+            </tr>
+            <tr>
+                <td>SAVINGS</td>
+                <td>08.30.2021</td>
+                <td>INITIAL DEPOSIT</td>
+                <td>$7000.00</td>
+            </tr>
+            <tfoot></tfoot>
+        </table>
+        <div class="view-as">
+            <br/>
+            <p id="html4">View as HTML</p>
+            <p id="pdf4">View as PDF</p>
+            <p id="xlsx4">View as XLSX</p>
+        </div>
+    </div>
+
+</body>
+<script src = "index.js"></script>
+
+</html>
